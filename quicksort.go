@@ -32,7 +32,7 @@ func QuickSort(s []int) []int {
 	s[left], s[right] = s[right], s[left]
 
 	QuickSort(s[:left])
-	QuickSort(s[right+1:])
+	QuickSort(s[left+1:])
 
 	return s
 }
