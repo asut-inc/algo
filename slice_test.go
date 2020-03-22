@@ -32,8 +32,8 @@ func sliceTester(s func([]int) []int, t *testing.T) {
 
 var dataProvider = []slice{
 	{
-		cases:    []int{89, 144, 233, 55, 34, 1},
-		expected: []int{1, 34, 55, 89, 144, 233},
+		cases:    []int{89, 144, 100, 233, 2, 155, 55, 34, 1},
+		expected: []int{1, 2, 34, 55, 89, 100, 144, 155, 233},
 	},
 	{
 		cases:    []int{300000, 100500, 1033, 2000, 899, 13},
