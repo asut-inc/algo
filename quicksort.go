@@ -5,9 +5,7 @@ import (
 	"time"
 )
 
-/* QuickSort golang implementation of quicksort algorithm
-*
- */
+// QuickSort golang implementation of quick sort algorithm
 func QuickSort(s []int) []int {
 	if len(s) < 2 {
 		return s
